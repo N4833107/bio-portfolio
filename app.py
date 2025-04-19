@@ -71,3 +71,22 @@ st.markdown("💡 *This portfolio represents the first step in my scientific jou
 # --- Footer ---
 st.markdown("---")
 st.markdown("© 2025 - Biology Portfolio by Nabeel")
+
+# --- Timeline Section ---
+st.header("🕒 Timeline of My Biology Journey")
+
+timeline_data = [
+    ("2022", "Started developing interest in biology through school lessons."),
+    ("2024", "Participated in heart dissection and food tests."),
+    ("2025", "Discovered genetic mutation videos and explored reproductive biology."),
+    ("2025", "Created this portfolio to apply for polytechnic courses in biomedical science.")
+]
+
+for year, event in timeline_data:
+    st.markdown(f"""
+    <div style='margin-bottom: 1.5rem; padding: 1rem; border-left: 5px solid #4CAF50; background-color: #f9f9f9; border-radius: 5px;'>
+        <strong style='color: #4CAF50;'>{year}</strong><br>
+        {event}
+    </div>
+    """, unsafe_allow_html=True)
+
