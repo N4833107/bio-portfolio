@@ -1,73 +1,74 @@
 import streamlit as st
+from datetime import datetime
 
-st.set_page_config(page_title="Biology Portfolio", page_icon="🧬", layout="wide")
+# Set page config
+st.set_page_config(
+    page_title="My Biology Portfolio",
+    page_icon="🧬",
+    layout="wide"
+)
 
-st.title("🧬 My Biology Portfolio")
-st.markdown("Welcome to my biology journey! Scroll through to explore my interests, lab experiences, and future goals in the field of life sciences.")
+# --- Custom Background ---
+def set_bg_from_url(image_url):
+    st.markdown(f"""
+        <style>
+        .stApp {{
+            background-image: url("{image_url}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }}
+        </style>
+        """, unsafe_allow_html=True)
 
-# --- Section 1 ---
-st.header("🌱 My Passion for Biology")
-st.markdown("""
-> *"Biology helps us uncover the secrets of life — and I am driven to be part of that discovery."*
+set_bg_from_url("https://images.unsplash.com/photo-1581092580491-a206d58f2555?auto=format&fit=crop&w=1470&q=80")
 
-From the first time I engaged in a hands-on biology practical, I felt deeply inspired to understand how the human body works. Since then, biology has become more than just a subject — it’s a field I want to explore and contribute to as a future scientist.
-""")
+# --- Custom Logo ---
+logo_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_icon.svg/1024px-DNA_icon.svg.png"
+st.image(logo_url, width=100)
+st.title("🔬 My Biology Portfolio")
+st.markdown("#### Exploring Life Through Science")
 
-# --- Section 2 ---
-st.header("🧠 Why I Want to Study Biology")
-st.markdown("""
-- My interest in biology grew stronger after a heart dissection during school. Seeing the chambers, valves, and vessels in real life sparked my curiosity.
-- A YouTube Short on **genetic mutation** amazed me — a single change in DNA can affect an entire organism!
-- I explored topics like genetics, hereditary diseases, and reproductive biology.
-""")
+# --- Content Sections ---
+sections = {
+    "My Passion for Biology": [
+        "*\"Biology helps us uncover the secrets of life — and I am driven to be part of that discovery.\"*",
+        "From the first time I engaged in a hands-on biology practical, I felt deeply inspired to understand how the human body works.",
+        "Biology is not just a subject — it's a journey I want to explore as a future scientist."
+    ],
+    "Why I Want to Study Biology": [
+        "A heart dissection in school sparked my curiosity about anatomy.",
+        "A YouTube Short on genetic mutation fascinated me — how DNA changes impact whole organisms.",
+        "Biology is essential to solving real-world medical and scientific problems."
+    ],
+    "School Lab Experiences": [
+        "- **Heart Dissection Practical:** Identified atria, ventricles, and valves with precision.",
+        "- **Food Tests & Respiration:** Measured glucose and oxygen to understand cellular energy.",
+        "These taught me lab discipline, accuracy, and scientific thinking."
+    ],
+    "Self-Learning & Exploration": [
+        "I watch educational videos and read articles on biology topics.",
+        "- The process of sexual reproduction and its role in genetic diversity.",
+        "- How oxygen and nutrients are delivered through the human transport system.",
+        "Self-study deepened my passion and knowledge."
+    ],
+    "My Strengths & Future Goals": [
+        "- **Strengths:** Focused, accurate in labs, strong memory, independent learner.",
+        "- **Goal:** Become a biomedical/genetic researcher and improve healthcare.",
+        "I'm ready to give my best — in labs, classrooms, and life."
+    ]
+}
 
-st.success("Biology is not just fascinating — it’s essential to improving lives.")
-
-# --- Section 3 ---
-st.header("🔬 School Lab Experiences")
-st.markdown("""
-- **Heart Dissection Practical:** I identified atria, ventricles, and valves, linking theory to real-life biology.
-- **Food Tests & Respiration Experiments:** I ensured accuracy in measurements and understood how glucose and oxygen fuel our cells.
-
-These experiences helped me develop **lab discipline**, **accuracy**, and **scientific thinking**.
-""")
-
-# --- Section 4 ---
-st.header("📚 Self-Learning & Exploration")
-st.markdown("""
-Beyond school, I watch educational videos and explore topics like:
-
-- **Sexual reproduction** and its role in genetic diversity
-- **Human transport systems** — how oxygen and nutrients travel through our body
-- **Gene therapy** and the future of medical innovation
-""")
-
-st.info("These topics fascinate me and fuel my goal to contribute to biomedical science.")
-
-# --- Section 5 ---
-st.header("🚀 My Strengths & Future Goals")
-
-col1, col2 = st.columns(2)
-with col1:
-    st.subheader("🧩 Strengths")
-    st.markdown("""
-    - Highly focused during lab experiments  
-    - Careful in following procedures  
-    - Strong memory for biological concepts  
-    - Independent learner
-    """)
-
-with col2:
-    st.subheader("🎯 Goals")
-    st.markdown("""
-    - Become a scientist in **biomedical research** or **genetics**  
-    - Contribute to healthcare discoveries  
-    - Improve lives through science  
-    """)
-
-st.balloons()
-st.markdown("💡 *This portfolio represents the first step in my scientific journey.*")
+# --- Display Sections ---
+for title, points in sections.items():
+    st.subheader(f"📌 {title}")
+    for point in points:
+        st.markdown(f"- {point}")
+    st.markdown("---")
 
 # --- Footer ---
-st.markdown("---")
-st.markdown("© 2025 - Biology Portfolio by Nabeel")
+st.markdown(f"""
+<div style='text-align: center; font-size: 0.9em; color: gray;'>
+Last updated: {datetime.today().strftime('%B %d, %Y')}
+</div>
+""", unsafe_allow_html=True)
