@@ -3,90 +3,98 @@ import streamlit as st
 st.set_page_config(page_title="Biology Portfolio", page_icon="🧬", layout="wide")
 
 st.title("🧬 My Biology Portfolio")
-st.markdown("Welcome to my biology journey! Scroll through to explore my interests, lab experiences, and future goals in the field of life sciences.")
+st.markdown("""
+Welcome to my biology journey! I'm Nabeel, a passionate aspiring scientist with a deep curiosity about life sciences and a clear goal: to contribute to the world of **biotechnology**. Scroll down to explore my interests, hands-on lab experiences, and personal reflections that have shaped my dream of pursuing Biotechnology at Ngee Ann Polytechnic.
+""")
 
 # --- Section 1 ---
 st.header("🌱 My Passion for Biology")
 st.markdown("""
-> *"Biology helps us uncover the secrets of life — and I am driven to be part of that discovery."*
+> *"Biology is more than a subject — it's the key to understanding life, solving real-world problems, and making a difference through science."*
 
-From the first time I engaged in a hands-on biology practical, I felt deeply inspired to understand how the human body works. Since then, biology has become more than just a subject — it’s a field I want to explore and contribute to as a future scientist.
+My fascination with biology began the moment I observed real organs during a heart dissection. Seeing how complex systems work together in the human body made me realize how much there is still to uncover — and that I wanted to be part of that discovery process. Whether it's understanding genetic conditions or exploring how cells function, I find the **mysteries of life** endlessly fascinating.
 """)
 
 # --- Section 2 ---
-st.header("🧠 Why I Want to Study Biology")
+st.header("🧠 Why I Want to Study Biology — Especially Biotechnology")
 st.markdown("""
-- My interest in biology grew stronger after a heart dissection during school. Seeing the chambers, valves, and vessels in real life sparked my curiosity.
-- A YouTube Short on **genetic mutation** amazed me — a single change in DNA can affect an entire organism!
-- I explored topics like genetics, hereditary diseases, and reproductive biology.
+- A YouTube Short about **CRISPR gene editing** opened my eyes to the future of medicine and biotechnology.
+- After our heart dissection in school, I stayed back to ask my teacher about genetic heart conditions — that’s when I first heard about biotechnology applications in real-life medicine.
+- I often explore topics like **hereditary diseases**, **mutations**, and **molecular biology** through books and videos.
+- I want to be part of solving medical problems — like curing inherited diseases — using **biotechnology innovations**.
+
+Biotechnology combines my love for biology and my problem-solving nature. I believe it’s the perfect path for me to **make a real-world impact**.
 """)
 
-st.success("Biology is not just fascinating — it’s essential to improving lives.")
+st.success("I see myself not just studying science — but using it to change lives.")
 
 # --- Section 3 ---
-st.header("🔬 School Lab Experiences")
+st.header("🔬 Real Lab Experiences that Shaped Me")
 st.markdown("""
-- **Heart Dissection Practical:** I identified atria, ventricles, and valves, linking theory to real-life biology.
-- **Food Tests & Respiration Experiments:** I ensured accuracy in measurements and understood how glucose and oxygen fuel our cells.
+At school, I developed strong lab discipline and a love for precise, hands-on science.
 
-These experiences helped me develop **lab discipline**, **accuracy**, and **scientific thinking**.
+- **Heart Dissection Practical:** I identified the atria, ventricles, valves, and vessels. This was my favorite moment in biology — the link between theory and real anatomy was inspiring.
+- **Food Tests (Glucose, Starch, Protein, Fat):** I performed Benedict's and Biuret tests, learning to measure and interpret results accurately.
+- **Respiration Experiments:** I used limewater and respirometers to investigate how the body uses oxygen. I learned the value of good controls and detailed observations.
+
+I always ensured:
+- **Clean and safe lab practices**
+- **Consistent measurements**
+- **Careful following of procedures**
 """)
 
 # --- Section 4 ---
-st.header("📚 Self-Learning & Exploration")
+st.header("📚 My Self-Learning in Biology & Beyond")
 st.markdown("""
-Beyond school, I watch educational videos and explore topics like:
+Outside of the classroom, I actively seek knowledge on topics that interest me, especially those that link to biotechnology.
 
-- **Sexual reproduction** and its role in genetic diversity
-- **Human transport systems** — how oxygen and nutrients travel through our body
-- **Gene therapy** and the future of medical innovation
+**Topics I've explored independently:**
+- Genetic mutations and how they lead to diseases like cystic fibrosis
+- Sexual reproduction and how it promotes genetic diversity
+- Human circulatory system and the role of capillaries in nutrient exchange
+- Biotech breakthroughs like **stem cell therapy** and **mRNA vaccines**
+
+I've also completed multiple online science courses and regularly watch **CrashCourse**, **Khan Academy**, and **Kurzgesagt** videos to deepen my understanding.
 """)
 
-st.info("These topics fascinate me and fuel my goal to contribute to biomedical science.")
+st.info("This self-initiative shows my commitment to life sciences and readiness for a polytechnic environment.")
 
 # --- Section 5 ---
-st.header("🚀 My Strengths & Future Goals")
+st.header("🚀 Strengths, Skills & Future Goals")
 
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("🧩 Strengths")
     st.markdown("""
-    - Highly focused during lab experiments  
-    - Careful in following procedures  
-    - Strong memory for biological concepts  
-    - Independent learner
+    - High attention to detail during lab work  
+    - Strong memory — especially for scientific facts and concepts  
+    - Able to link theory to real-life applications  
+    - Curious and motivated to learn independently  
+    - Always ask deeper 'why' questions  
+    - Good at explaining biology concepts to others
     """)
 
 with col2:
-    st.subheader("🎯 Goals")
+    st.subheader("🎯 Future Goals")
     st.markdown("""
-    - Become a scientist in **biomedical research** or **genetics**  
-    - Contribute to healthcare discoveries  
-    - Improve lives through science  
+    - Study **Biotechnology** at Ngee Ann Polytechnic  
+    - Contribute to **genetic therapy research**  
+    - Help solve medical challenges through **biomedical innovation**  
+    - Eventually work in labs tackling real-world health issues  
     """)
 
 st.balloons()
-st.markdown("💡 *This portfolio represents the first step in my scientific journey.*")
+st.markdown("💡 *This portfolio is not just a summary — it’s a promise of what I hope to achieve in the field of biotechnology.*")
 
-# --- Footer ---
-st.markdown("---")
-st.markdown("© 2025 - Biology Portfolio by Nabeel")
+# --- Section: DNT Project Related to Biology ---
+st.header("💡 DNT Project: Biology Meets Design Technology")
 
-# --- Timeline Section ---
-st.header("🕒 Timeline of My Biology Journey")
+st.markdown("""
+As part of my O-Level Design & Technology coursework this year, I created an **interactive infinity mirror lung display** to promote awareness about **organ donation**, specifically **lung transplants**.
 
-timeline_data = [
-    ("2022", "Started developing interest in biology through school lessons."),
-    ("2024", "Participated in heart dissection and food tests."),
-    ("2025", "Discovered genetic mutation videos and explored reproductive biology."),
-    ("2025", "Created this portfolio to apply for polytechnic courses in biomedical science.")
-]
+🛠️ **What I built:**
+- A glowing acrylic lung structure using red transparent acrylic and LED lighting  
+- An **infinity mirror** effect that symbolizes **endless hope for patients** awaiting organ transplants  
+- A Bluetooth-controlled LED system (with an HC-05 module),
 
-for year, event in timeline_data:
-    st.markdown(f"""
-    <div style='margin-bottom: 1.5rem; padding: 1rem; border-left: 5px solid #4CAF50; background-color: #f9f9f9; border-radius: 5px;'>
-        <strong style='color: #4CAF50;'>{year}</strong><br>
-        {event}
-    </div>
-    """, unsafe_allow_html=True)
 
