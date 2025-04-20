@@ -95,6 +95,36 @@ As part of my O-Level Design & Technology coursework this year, I created an **i
 🛠️ **What I built:**
 - A glowing acrylic lung structure using red transparent acrylic and LED lighting  
 - An **infinity mirror** effect that symbolizes **endless hope for patients** awaiting organ transplants  
-- A Bluetooth-controlled LED system (with an HC-05 module),
+- A pair of lungs made of infinity mirror with led strip inside it, representing technological innovation in healthcare
 
+🔗 **Why it matters:**
+This project allowed me to merge design, electronics, and **human biology**, turning medical awareness into an eye-catching, interactive display. It also reflects my passion for biology and public health communication.
 
+📌 **Skills involved:**
+- Basic electronics & circuit design  
+- CAD design and precision fabrication  
+- Biological research on lungs and organ donation  
+- Creative storytelling through visual design
+
+This experience showed me how **science, tech, and creativity** can come together to **educate and inspire others** — a skill I believe is valuable in the field of biotechnology.
+""")
+
+# --- EAE Relevance ---
+st.header("🎓 Why Ngee Ann Polytechnic’s Biotechnology Course is Right for Me")
+st.markdown("""
+After studying the modules offered in NP's **Diploma in Biotechnology**, I’m especially excited about:
+
+- **Molecular Genetics and Bioinformatics**  
+- **Cell Culture and Tissue Engineering**  
+- **Applied Biochemistry**
+
+These topics align perfectly with my interests. I’m particularly drawn to how NP emphasizes **real-world research, lab experience, and innovation** — skills I know I’ll thrive in based on my current experiences.
+
+The EAE path gives me the chance to **show who I really am** — not just through grades, but through my deep interest in biology and commitment to making a difference in healthcare.
+""")
+
+st.success("I believe I’m an excellent fit for this course — motivated, passionate, and ready to contribute.")
+
+# --- Footer ---
+st.markdown("---")
+st.markdown("© 2025 - Biology Portfolio by Shaik Mohamed Nabeel | Built with ❤️ using Streamlit")
