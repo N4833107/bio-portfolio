@@ -10,7 +10,10 @@ Welcome to my biology journey! I'm Nabeel, a passionate aspiring scientist with 
 # --- Section 1 ---
 st.header("🌱 My Passion for Biology")
 st.markdown("""
-> *"Biology is more than a subject — it's the key to understanding life, solving real-world problems, and making a difference through science."*
+
+> *"Biology is more than a subject — it's the key to understanding life, solving real-world problems, and making a difference through science."*  
+> — *Nabeel, aspiring biotechnologist*
+
 
 My fascination with biology began the moment I observed real organs during a heart dissection. Seeing how complex systems work together in the human body made me realize how much there is still to uncover — and that I wanted to be part of that discovery process. Whether it's understanding genetic conditions or exploring how cells function, I find the **mysteries of life** endlessly fascinating.
 """)
