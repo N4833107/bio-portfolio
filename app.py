@@ -4,130 +4,141 @@ st.set_page_config(page_title="Biology Portfolio", page_icon="🧬", layout="wid
 
 st.title("🧬 My Biology Portfolio")
 st.markdown("""
-Welcome to my biology journey! I'm Nabeel, a passionate aspiring scientist with a deep curiosity about life sciences and a clear goal: to contribute to the world of **biotechnology**. Scroll down to explore my interests, hands-on lab experiences, and personal reflections that have shaped my dream of pursuing Biotechnology at Ngee Ann Polytechnic.
+Welcome to my digital biology journal! I’m **Nabeel**, an aspiring scientist driven by curiosity and compassion.  
+From **lab practicals** to **creative projects**, every step I’ve taken is rooted in one dream:  
+**To contribute meaningfully to the field of biotechnology and healthcare innovation.**
+
+Scroll to discover my passion for life sciences, my journey through labs and self-learning,  
+and the experiences that have shaped my dream to pursue **Biotechnology at Ngee Ann Polytechnic**.
 """)
 
 # --- Section 1 ---
 st.header("🌱 My Passion for Biology")
 st.markdown("""
-
 > *"Biology is more than a subject — it's the key to understanding life, solving real-world problems, and making a difference through science."*  
 > — *Nabeel, aspiring biotechnologist*
 
+My fascination with biology began when I observed real organs during a heart dissection.  
+Witnessing how the human body works — from the tiniest cell to entire organ systems — made me realize how much there is still to discover. That moment sparked my ambition to **explore the unknown**, and more importantly, to use science to **help others**.
 
-My fascination with biology began the moment I observed real organs during a heart dissection. Seeing how complex systems work together in the human body made me realize how much there is still to uncover — and that I wanted to be part of that discovery process. Whether it's understanding genetic conditions or exploring how cells function, I find the **mysteries of life** endlessly fascinating.
+Whether it's understanding **genetic conditions**, **molecular mechanisms**, or **biotech breakthroughs**, I find the mysteries of life endlessly captivating.
 """)
 
 # --- Section 2 ---
-st.header("🧠 Why I Want to Study Biology — Especially Biotechnology")
+st.header("🧠 Why Biotechnology?")
 st.markdown("""
-- A YouTube Short about **CRISPR gene editing** opened my eyes to the future of medicine and biotechnology.
-- After our heart dissection in school, I stayed back to ask my teacher about genetic heart conditions — that’s when I first heard about biotechnology applications in real-life medicine.
-- I often explore topics like **hereditary diseases**, **mutations**, and **molecular biology** through books and videos.
-- I want to be part of solving medical problems — like curing inherited diseases — using **biotechnology innovations**.
+- A YouTube Short on **CRISPR gene editing** showed me how biotechnology can literally rewrite the future of medicine.
+- After a heart dissection, I stayed back to ask about **genetic heart conditions** — that moment connected classroom science to real-world impact.
+- I regularly deep-dive into topics like **hereditary diseases**, **mutations**, and **genetic engineering** via books and educational content.
+- I dream of being part of solutions — **curing genetic disorders** and enhancing lives using **biotechnological innovation**.
 
-Biotechnology combines my love for biology and my problem-solving nature. I believe it’s the perfect path for me to **make a real-world impact**.
+Biotechnology blends **biology, innovation, and compassion** — all values I hold deeply.  
+It’s not just what I want to study — it’s the **lens through which I want to view the world**.
 """)
-
-st.success("I see myself not just studying science — but using it to change lives.")
+st.success("I'm not just studying science. I'm preparing to use it to transform lives.")
 
 # --- Section 3 ---
-st.header("🔬 Real Lab Experiences that Shaped Me")
+st.header("🔬 Lab Experiences That Inspired Me")
 st.markdown("""
-At school, I developed strong lab discipline and a love for precise, hands-on science.
+Practical work helped me discover my strengths in careful observation, precision, and discipline.
 
-- **Heart Dissection Practical:** I identified the atria, ventricles, valves, and vessels. This was my favorite moment in biology — the link between theory and real anatomy was inspiring.
-- **Food Tests (Glucose, Starch, Protein, Fat):** I performed Benedict's and Biuret tests, learning to measure and interpret results accurately.
-- **Respiration Experiments:** I used limewater and respirometers to investigate how the body uses oxygen. I learned the value of good controls and detailed observations.
+**Key experiments I loved:**
+- 🫀 **Heart Dissection:** Identified atria, ventricles, and valves — where I truly connected theory to real anatomy.
+- 🧪 **Food Tests:** Conducted Benedict’s, Biuret, and ethanol tests with accurate technique and confident analysis.
+- 💨 **Respiration Practical:** Measured carbon dioxide using limewater and used respirometers — I appreciated how controls and small changes affect biological outcomes.
 
-I always ensured:
-- **Clean and safe lab practices**
-- **Consistent measurements**
-- **Careful following of procedures**
+My approach:
+- Always follow **lab safety** and hygiene
+- Focus on **reliable, accurate results**
+- Record and observe with **scientific discipline**
 """)
 
 # --- Section 4 ---
-st.header("📚 My Self-Learning in Biology & Beyond")
+st.header("📚 Self-Driven Learning & Curiosity")
 st.markdown("""
-Outside of the classroom, I actively seek knowledge on topics that interest me, especially those that link to biotechnology.
+My learning never stops at school. I actively explore topics that fascinate me and link to biotechnology.
 
-**Topics I've explored independently:**
-- Genetic mutations and how they lead to diseases like cystic fibrosis
-- Sexual reproduction and how it promotes genetic diversity
-- Human circulatory system and the role of capillaries in nutrient exchange
-- Biotech breakthroughs like **stem cell therapy** and **mRNA vaccines**
+**Topics I’ve explored on my own:**
+- 🔬 Genetic mutations and diseases like **cystic fibrosis**
+- ❤️ Sexual reproduction & how it promotes **genetic diversity**
+- 💉 Breakthroughs in **mRNA vaccines** and **stem cell therapy**
+- 🩸 Capillaries and nutrient exchange in the circulatory system
 
-I've also completed multiple online science courses and regularly watch **CrashCourse**, **Khan Academy**, and **Kurzgesagt** videos to deepen my understanding.
+I learn through:
+- **CrashCourse**, **Khan Academy**, **Kurzgesagt**  
+- Online science courses from **Cybrary**, **Cisco Networking**, and others  
+- Research articles and YouTube explainers — I love breaking down complex topics and learning how they connect to real-life medicine  
 """)
-
-st.info("This self-initiative shows my commitment to life sciences and readiness for a polytechnic environment.")
+st.info("My initiative proves that I’m ready for independent learning in a polytechnic environment.")
 
 # --- Section 5 ---
-st.header("🚀 Strengths, Skills & Future Goals")
+st.header("🚀 Strengths, Skills & Future Vision")
 
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("🧩 Strengths")
     st.markdown("""
-    - High attention to detail during lab work  
-    - Strong memory — especially for scientific facts and concepts  
-    - Able to link theory to real-life applications  
-    - Curious and motivated to learn independently  
-    - Always ask deeper 'why' questions  
-    - Good at explaining biology concepts to others
+    - Detail-oriented in labs  
+    - Strong memory for biological terms and systems  
+    - Constantly ask “why” to understand deeply  
+    - Great at connecting theory with real-world examples  
+    - Explain biology clearly to others  
+    - Motivated to learn independently
     """)
 
 with col2:
     st.subheader("🎯 Future Goals")
     st.markdown("""
-    - Study **Biotechnology** at Ngee Ann Polytechnic  
-    - Contribute to **genetic therapy research**  
-    - Help solve medical challenges through **biomedical innovation**  
-    - Eventually work in labs tackling real-world health issues  
+    - Enroll in **Biotechnology at Ngee Ann Polytechnic**  
+    - Work on **genetic therapy research**  
+    - Solve **real medical challenges** using biotechnology  
+    - Contribute to **cutting-edge biomedical innovation**  
+    - Educate and inspire others about the power of science
     """)
 
 st.balloons()
-st.markdown("💡 *This portfolio is not just a summary — it’s a promise of what I hope to achieve in the field of biotechnology.*")
+st.markdown("💡 *This portfolio is more than a showcase — it's a glimpse into the future I’m working towards in life sciences.*")
 
-# --- Section: DNT Project Related to Biology ---
-st.header("💡 DNT Project: Biology Meets Design Technology")
+# --- Section 6: DNT Project Related to Biology ---
+st.header("💡 DNT Project: When Biology Meets Design Tech")
 
 st.markdown("""
-As part of my O-Level Design & Technology coursework this year, I created an **interactive infinity mirror lung display** to promote awareness about **organ donation**, specifically **lung transplants**.
+As part of my O-Level **Design & Technology coursework**, I created an **interactive infinity mirror lung display** to promote **organ donation awareness**, especially lung transplants.
 
-🛠️ **What I built:**
-- A glowing acrylic lung structure using red transparent acrylic and LED lighting  
-- An **infinity mirror** effect that symbolizes **endless hope for patients** awaiting organ transplants  
-- A pair of lungs made of infinity mirror with led strip inside it, representing technological innovation in healthcare
+🛠️ **What I Built:**
+- A **red transparent acrylic lung** lit with LEDs  
+- **Infinity mirror effect** symbolizing **endless hope** for transplant patients  
+- Interactive visual design combining **biology, electronics, and public health**
 
-🔗 **Why it matters:**
-This project allowed me to merge design, electronics, and **human biology**, turning medical awareness into an eye-catching, interactive display. It also reflects my passion for biology and public health communication.
+📌 **What I Learned:**
+- **Basic circuitry and LED integration**
+- **CAD design** and hands-on acrylic fabrication
+- Biological research on lung function and transplants
+- Power of **design storytelling** in science communication
 
-📌 **Skills involved:**
-- Basic electronics & circuit design  
-- CAD design and precision fabrication  
-- Biological research on lungs and organ donation  
-- Creative storytelling through visual design
-
-This experience showed me how **science, tech, and creativity** can come together to **educate and inspire others** — a skill I believe is valuable in the field of biotechnology.
+This experience proved how **creativity and science** can combine to **educate and inspire**, a skill I hope to bring into biotech.
 """)
 
-# --- EAE Relevance ---
-st.header("🎓 Why Ngee Ann Polytechnic’s Biotechnology Course is Right for Me")
+# --- Section 7: Why Ngee Ann Polytechnic? ---
+st.header("🎓 Why Ngee Ann Polytechnic's Biotechnology Course?")
 st.markdown("""
-After studying the modules offered in NP's **Diploma in Biotechnology**, I’m especially excited about:
+After reviewing NP’s **Diploma in Biotechnology**, I know this is the right environment for me.
 
-- **Molecular Genetics and Bioinformatics**  
-- **Cell Culture and Tissue Engineering**  
-- **Applied Biochemistry**
+**Modules I’m excited for:**
+- 🧬 **Molecular Genetics & Bioinformatics**
+- 🧫 **Cell Culture & Tissue Engineering**
+- 🧪 **Applied Biochemistry**
 
-These topics align perfectly with my interests. I’m particularly drawn to how NP emphasizes **real-world research, lab experience, and innovation** — skills I know I’ll thrive in based on my current experiences.
+What draws me most:
+- Emphasis on **real-world labs** and **project-based learning**
+- Opportunity to contribute to **innovative research**
+- Pathways to solving real healthcare challenges
 
-The EAE path gives me the chance to **show who I really am** — not just through grades, but through my deep interest in biology and commitment to making a difference in healthcare.
+The **EAE route** allows me to show not just my grades, but my **drive, passion, and vision** for the future.
 """)
-
-st.success("I believe I’m an excellent fit for this course — motivated, passionate, and ready to contribute.")
+st.success("I’m ready — not just to study biotechnology, but to contribute to its future.")
 
 # --- Footer ---
 st.markdown("---")
 st.markdown("© 2025 - Biology Portfolio by Shaik Mohamed Nabeel | Built with ❤️ using Streamlit")
+
